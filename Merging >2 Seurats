@@ -1,5 +1,6 @@
 The following Code shows how you can merge >2 Seurat objects
-All three objects xx, xy and xz were generated using CelRanger from a 10x output.
+All three objects xx, xy and xz were generated using CellRanger from a 10x output.
+It should work on Seurat v2.3.4
 Enjoy :)
 
 # this example is for a typical 10x CellRanger output, use other codes to create Seurat objects when non-10x platforms are used
