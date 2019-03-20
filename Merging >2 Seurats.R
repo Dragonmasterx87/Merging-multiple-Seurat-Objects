@@ -3,6 +3,10 @@
 # It should work on Seurat v2.3.4
 # Enjoy :)
 
+install.packages('Seurat')
+library(Seurat)
+
+
 # this example is for a typical 10x CellRanger output, use other codes to create Seurat objects when non-10x platforms are used
 # The first line of code points towards your directory, similarly for the other 2 samples as well :)
 
