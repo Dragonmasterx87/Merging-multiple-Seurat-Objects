@@ -1,3 +1,4 @@
+# This code uses Seurat v2.3.4 developed by the Satijalab
 # The following Code shows how you can merge >2 Seurat objects
 # All three objects xx, xy and xz were generated using CellRanger from a 10x output.
 # It should work on Seurat v2.3.4
