@@ -29,12 +29,14 @@ n2.combined <- MergeSeurat(object1 = xx,
                                object2 = xy, 
                                add.cell.id1 = "xx",
                                add.cell.id2 = "xy",
+                               do.normalize = FALSE,
                                project = "2samples"
                                )
 
 n3.combined <- MergeSeurat(object1 = n2.combined, 
                                object2 = xz, 
                                add.cell.id2 = "xz",
+                               do.normalize = FALSE,
                                project = "3samples"
                                )
 
